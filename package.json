@@ -1,0 +1,14 @@
+{
+  "name": "react-native-slide-in-and-out-view",
+  "version": "1.0.0",
+  "description": "Simple view that slides in and out the content",
+  "main": "SlideInAndOutView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react-native": "^0.13.2"
+  }
+}
