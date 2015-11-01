@@ -32,7 +32,7 @@ class SlideInAndOutView extends React.Component {
     Animated.timing(this.state.height, {
       toValue: 0,
       easing: Easing.easeOutQuad,
-    }, callback).start();
+    }).start();
   }
 
   handleChildrenLayout(event) {
