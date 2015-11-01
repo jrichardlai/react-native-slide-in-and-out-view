@@ -21,7 +21,7 @@ class SlideInAndOutView extends React.Component {
 
   }
 
-  slideOut(callback) {
+  slideOut(callback = () => {}) {
     const endCallback = ({value}) => {
       if (value === 0) { callback(); }
       this.state.height.removeListener(endCallback);
